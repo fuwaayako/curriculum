@@ -1,0 +1,79 @@
+.header{
+    width: 400px;
+    height: 100px;
+    background-color: darkblue;
+}
+.main{
+    width: 400px;
+    height: 250px;
+}
+.left{
+    width: 150px;
+    height: 250px;
+    background-color: mediumaquamarine;
+    float: left;
+}
+.right{
+    width: 250px;
+    height: 250px;
+    background-color: brown;
+    float: left;
+}
+.box1{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.item1{
+    width: 150px;
+    height: 50px;
+    background-color: yellowgreen;
+    float: left;
+}
+.item2{
+    width: 150px;
+    height: 100px;
+    background-color: skyblue;
+    float: left;
+}
+.box2{
+    width: 100px;
+    height: 150px;
+    background-color: plum;
+    float: left;
+}
+.fooder{
+    width: 400px;
+    height: 100px;
+    background-color: orange;
+}
+
+@media screen and (max-width: 767px) {
+    .header{
+        width: 300px;
+        height: fit-content;
+        position: initial;
+    }
+    .left{
+        width: 100px;
+        height: fit-content;
+        position: initial;
+    }
+    .box1{
+        width: 125px;
+        height: fit-content;
+        position: initial;
+    }
+    .box2{
+        width: 75px;
+        height: fit-content;
+        position: initial;
+    }
+}
+@media screen and (max-width: 479px) {
+    .header{
+        width: 150px;
+        height: fit-content;
+        position: initial;
+    }
+}
